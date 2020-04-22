@@ -52,7 +52,7 @@
 		<repository>
 			<id>osgeo</id>
 			<name>Open Source Geospatial Foundation Repository</name>
-			<url>http://download.osgeo.org/webdav/geotools/</url>
+			<url>http://repo.osgeo.org/repository/geotools-releases/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -61,6 +61,11 @@
 			<id>chouette-repository</id>
 			<name>Chouette Repository</name>
 			<url>http://maven.chouette.mobi/</url>
+		</repository>
+		<repository>
+			<id>mavenj</id>
+			<name>mavenj Repository</name>
+			<url>http://maven.imagej.net/content/repositories/public/</url>
 		</repository>
 	</repositories>
 	<build>
