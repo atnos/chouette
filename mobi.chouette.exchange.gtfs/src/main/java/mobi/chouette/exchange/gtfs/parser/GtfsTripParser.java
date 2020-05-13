@@ -705,7 +705,9 @@ public class GtfsTripParser implements Parser, Validator, Constant {
 			route.setLine(null);
 			referential.getRoutes().remove(route);
 		}
-		lstShapeVjas.clear();
+		if (lstShapeVjas != null) {
+			lstShapeVjas.clear();
+		}
 
 	}
 
